@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RhinoUI major_ver="3" minor_ver="0" guid="9dba5635-f7c0-429a-bdab-3ec7a7bd2e0f" localize="False" default_language_id="1033" dpi_scale="100">
+  <extend_rhino_menus>
+    <menu guid="d58ceae7-fdb0-4104-80da-274b94ad44a9">
+      <text>
+        <locale_1033>Extend Rhino Menus</locale_1033>
+      </text>
+    </menu>
+  </extend_rhino_menus>
+  <menus />
+  <tool_bar_groups>
+    <tool_bar_group guid="e21aa44e-061d-48b8-a859-752a3d3569d9" dock_bar_guid32="00000000-0000-0000-0000-000000000000" dock_bar_guid64="127401a7-5f3f-44c2-a53a-d6eb07828011" active_tool_bar_group="5d208239-2eff-4374-8799-cf3f452eff50" single_file="False" hide_single_tab="False" point_floating="464,236">
+      <text>
+        <locale_1033>Super Boolean Operation</locale_1033>
+      </text>
+      <tool_bar_group_item guid="5d208239-2eff-4374-8799-cf3f452eff50" major_version="1" minor_version="1">
+        <text>
+          <locale_1033>Zachitect.com</locale_1033>
+        </text>
+        <tool_bar_id>bb5fcb56-b39a-4390-a408-cec041a24152</tool_bar_id>
+      </tool_bar_group_item>
+      <dock_bar_info dpi_scale="100" dock_bar="False" docking="True" horz="False" visible="False" floating="True" mru_float_style="8192" bar_id="59475" mru_width="868" point_pos="-2,-2" float_point="464,236" rect_mru_dock_pos="0,0,288,133" dock_location_u="59420" dock_location="left" float_size="691,90" />
+    </tool_bar_group>
+  </tool_bar_groups>
+  <tool_bars>
+    <tool_bar guid="bb5fcb56-b39a-4390-a408-cec041a24152" bitmap_id="04890399-9f0f-413f-9b95-55380587e8f2" item_display_style="control_and_text">
+      <text>
+        <locale_1033>Zachitect.com</locale_1033>
+      </text>
+      <tool_bar_item guid="02adaf89-b3b5-47e3-9a7a-9990f972d286" button_display_mode="control_and_text" display_style_from_parent="False">
+        <left_macro_id>aa5f2860-7789-40df-b6b8-d781aae0a3af</left_macro_id>
+      </tool_bar_item>
+    </tool_bar>
+  </tool_bars>
+  <macros>
+    <macro_item guid="aa5f2860-7789-40df-b6b8-d781aae0a3af" bitmap_id="13426cbc-3398-49f1-92e2-80f249fa77f5">
+      <text>
+        <locale_1033>Macro</locale_1033>
+      </text>
+      <tooltip>
+        <locale_1033>SuperUnion | Advanced Boolean Union</locale_1033>
+      </tooltip>
+      <button_text>
+        <locale_1033>SuperUnion</locale_1033>
+      </button_text>
+      <script>SuperUnion</script>
+    </macro_item>
+  </macros>
+  <bitmaps>
+    <small_bitmap item_width="16" item_height="16">
+      <bitmap_item guid="04890399-9f0f-413f-9b95-55380587e8f2" index="0" />
+      <bitmap_item guid="13426cbc-3398-49f1-92e2-80f249fa77f5" index="1" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOvAAADrwBlbxySQAAAGJJREFUSEvtzUEKwDAIBEB/7uN8WIoQqRbXmlsODuxFshu6h4isk+za
+Kz0C5YD9gOLfBnZk5oXSGvjSuy+r9kBWVq0BVFa/A1VZlQNWRvFvAz9Qxb8N0iMAB06ya2OMcQ2i
+B228EnizBzUiAAAAAElFTkSuQmCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</bitmap>
+    </small_bitmap>
+    <normal_bitmap item_width="24" item_height="24">
+      <bitmap_item guid="04890399-9f0f-413f-9b95-55380587e8f2" index="0" />
+      <bitmap_item guid="13426cbc-3398-49f1-92e2-80f249fa77f5" index="1" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAABgAAAAwCAYAAAALiLqjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOvAAADrwBlbxySQAAAFpJREFUWEftzVEKwCAMg+HevIfrwRxCEMZWXfcyJv8HASmGGAAAAPAX
+7t4qUe25SomBpfRvRLQsvXR371F9mA7oeZGVGBj2GKhEtbPZQKbUYWBpj4E3Uf1LZgfL4RFw4cNl
+PQAAAABJRU5ErkJgggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</bitmap>
+    </normal_bitmap>
+    <large_bitmap item_width="32" item_height="32">
+      <bitmap_item guid="04890399-9f0f-413f-9b95-55380587e8f2" index="0" />
+      <bitmap_item guid="13426cbc-3398-49f1-92e2-80f249fa77f5" index="1" />
+      <bitmap>iVBORw0KGgoAAAANSUhEUgAAACAAAABACAYAAAB7jnWuAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOvAAADrwBlbxySQAAAB5JREFUaEPtwQEBAAAAgiD/r25IQAAAAAAAAADAuRogQAABYEmBRgAA
+AABJRU5ErkJgggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</bitmap>
+    </large_bitmap>
+  </bitmaps>
+  <scripts />
+</RhinoUI>
